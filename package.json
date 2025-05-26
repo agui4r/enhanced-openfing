@@ -1,0 +1,26 @@
+{
+  "name": "enhanced-openfing",
+  "version": "0.0.1",
+  "description": "",
+  "main": "content.js",
+  "scripts": {
+    "build": "tsc -p . --noEmit && echo %ERRORLEVEL%"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agui4r/enhanced-openfing.git"
+  },
+  "keywords": [
+    "openfing"
+  ],
+  "author": "agui4r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agui4r/enhanced-openfing/issues"
+  },
+  "homepage": "https://github.com/agui4r/enhanced-openfing#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "typescript": "^5.8.3"
+  }
+}
